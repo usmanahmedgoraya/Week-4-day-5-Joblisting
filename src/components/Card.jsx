@@ -2,6 +2,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import useJobListingStore from "../store/JobListingStore"
+import img from "../assets/images/photosnap.svg"
 
 const Card = ({ data }) => {
     const { addTag, jobsList } = useJobListingStore((state) => ({
@@ -12,7 +13,7 @@ const Card = ({ data }) => {
 
     return (
         <>
-            <div className={`md:text-left text-center grid md:grid-cols-9 grid-cols-1 bg-white shadow-xl mx-2 p-2  ${Featured && "border-l-4 border-l-cyan-600"} max-w-[60rem]  rounded-md`}>
+            <div className={`md:text-left text-center grid md:grid-cols-9 grid-cols-1 bg-white dark:bg-gray-700 shadow-xl mx-2 p-2  ${Featured && "border-l-4 border-l-cyan-600"} max-w-[60rem]  rounded-md`}>
                 <div className="col-span-1 relative bottom-9 md:bottom-0 border-red-900 flex justify-center items-center flex-shrink-0">
                     <img src={imgURL} alt="" />
                 </div>

@@ -1,10 +1,47 @@
 /* eslint-disable react/prop-types */
 
-const ToggleSwitch = ({className}) => {
+import { useEffect, useState } from "react"
+
+const ToggleSwitch = ({ className }) => {
+    const [darkMode, setdarkMode] = useState(false)
+
+    const ThemeMode = () => {
+
+
+        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark')
+            setdarkMode(true)
+        } else {
+            document.documentElement.classList.remove('dark')
+            setdarkMode(false)
+        }
+
+        // Whenever the user chooses light mode
+        localStorage.theme = 'light'
+
+        // Whenever the user chooses dark mode
+        localStorage.theme = 'dark'
+
+        // Whenever the user chooses to respect the OS preference
+        localStorage.removeItem('theme')
+    }
+
+    useEffect(() => {
+        ThemeMode()
+    }, [])
+
+
+    const handleDarkMode = () => {
+        document.documentElement.classList.toggle('dark')
+        setdarkMode((prevDarkMode) => {
+            return !prevDarkMode
+        })
+    }
     return (
         <div className={`${className} `}>
             <label className="theme-switch">
-                <input type="checkbox" className="theme-switch__checkbox" />
+                <input type="checkbox" className="theme-switch__checkbox" checked={darkMode} onChange={handleDarkMode} />
                 <div className="theme-switch__container">
                     <div className="theme-switch__clouds"></div>
                     <div className="theme-switch__stars-container">
