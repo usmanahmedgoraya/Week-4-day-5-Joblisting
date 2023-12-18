@@ -11,8 +11,8 @@ const Header = () => {
     return (
         <div>
             <div className="flex justify-center items-center shadow-sm bg-[#5ea5a3]">
-                <img src="/public/images/bg-header-desktop.svg" alt="header-Desktop" className="md:block hidden" />
-                <img src="/public/images/bg-header-mobile.svg" alt="header-mobile" className="w-full block md:hidden " />
+                <img src="/images/bg-header-desktop.svg" alt="header-Desktop" className="md:block hidden" />
+                <img src="/images/bg-header-mobile.svg" alt="header-mobile" className="w-full block md:hidden " />
             </div>
             {
                 selectedTags.length===0?"":

@@ -1,7 +1,7 @@
 const Data = [
     {
         id: 1,
-        imgURL: "/public/images/photosnap.svg",
+        imgURL: "/images/photosnap.svg",
         title: "Senior Frontend Developer",
         company: "Photosnap",
         tags: ["Frontend", "Senior", "HTML", "CSS", "Javascript"],
@@ -12,7 +12,7 @@ const Data = [
     },
     {
         id: 2,
-        imgURL: "/public/images/manage.svg",
+        imgURL: "/images/manage.svg",
         title: "Fullstack Developer",
         company: "Manage",
         tags: ["Fullstack", "Midweight", "HTML", "Python", "React"],
@@ -23,7 +23,7 @@ const Data = [
     },
     {
         id: 3,
-        imgURL: "/public/images/account.svg",
+        imgURL: "/images/account.svg",
         title: "Junior Frontend Developer",
         company: "Account",
         tags: ["Frontend", "Junior", "Javascript", "Sass", "React"],
@@ -34,7 +34,7 @@ const Data = [
     },
     {
         id: 4,
-        imgURL: "/public/images/myhome.svg",
+        imgURL: "/images/myhome.svg",
         title: "Junior Frontend Developer",
         company: "My Home",
         tags: ["Frontend", "Junior", "Javascript", "CSS"],
@@ -45,7 +45,7 @@ const Data = [
     },
     {
         id: 5,
-        imgURL: "/public/images/loop-studios.svg",
+        imgURL: "/images/loop-studios.svg",
         title: "Software Engineer",
         company: "Loop Studios",
         tags: ["Fullstack", "Midweight", "Javascript", "Sass", "Ruby"],
@@ -56,7 +56,7 @@ const Data = [
     },
     {
         id: 6,
-        imgURL: "/public/images/faceit.svg",
+        imgURL: "/images/faceit.svg",
         title: "Junior Backend Developer",
         company: "Loop Studios",
         tags: ["Backend", "Junior", "RoR", "Ruby"],
@@ -67,7 +67,7 @@ const Data = [
     },
     {
         id: 7,
-        imgURL: "/public/images/shortly.svg",
+        imgURL: "/images/shortly.svg",
         title: "Junior Developer",
         company: "Shortly",
         tags: ["Frontend", "Junior", "HTML", "Sass", "Javascript"],
@@ -78,7 +78,7 @@ const Data = [
     },
     {
         id: 8,
-        imgURL: "/public/images/insure.svg",
+        imgURL: "/images/insure.svg",
         title: "Junior Frontend Developer",
         company: "Insure",
         tags: ["Frontend", "Junior", "Vue", "Sass", "Javascript"],
@@ -89,7 +89,7 @@ const Data = [
     },
     {
         id: 9,
-        imgURL: "/public/images/eyecam-co.svg",
+        imgURL: "/images/eyecam-co.svg",
         title: "Full Stack Developer",
         company: "Eyecam Co.",
         tags: ["Fullstack", "Midweight", "Django", "Python", "Javascript"],
@@ -100,7 +100,7 @@ const Data = [
     },
     {
         id: 10,
-        imgURL: "/public/images/the-air-filter-company.svg",
+        imgURL: "/images/the-air-filter-company.svg",
         title: "Front-end Dev",
         company: "The Air Filter Company",
         tags: ["Frontend", "Junior", "React", "Sass", "Javascript"],
