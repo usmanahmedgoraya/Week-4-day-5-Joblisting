@@ -7,7 +7,7 @@ export const Cards = () => {
         jobsList:state.jobsList
     }))
   return (
-    <div className="w-full flex flex-col gap-y-16 md:gap-y-9 items-center justify-center my-4">
+    <div className="w-full flex flex-col gap-y-16 md:gap-y-9 items-center justify-center my-8">
         {
             jobsList.map((item)=>{
                 return(

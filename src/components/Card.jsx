@@ -41,7 +41,7 @@ const Card = ({ data }) => {
                     <div className="flex flex-wrap justify-around space-x-2">
                         {tags.map((tag, index) => {
                             return (
-                                <div className="cursor-pointer rounded-md p-2 bg-[#ecf7f2] text-[#87ada6] my-2" key={index} onClick={()=>addTag(tag)} >{tag}</div>
+                                <div className="cursor-pointer duration-300 transition-all hover:bg-[#cbded5] rounded-md p-2 bg-[#ecf7f2] text-[#87ada6] my-2" key={index} onClick={()=>addTag(tag)} >{tag}</div>
                             )
                         })}
                     </div>
