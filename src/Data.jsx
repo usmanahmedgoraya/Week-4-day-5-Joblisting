@@ -1,7 +1,7 @@
 const Data = [
     {
         id: 1,
-        imgURL: "/images/photosnap.svg",
+        imgURL: "../assets/images/photosnap.svg",
         title: "Senior Frontend Developer",
         company: "Photosnap",
         tags: ["Frontend", "Senior", "HTML", "CSS", "Javascript"],
@@ -12,7 +12,7 @@ const Data = [
     },
     {
         id: 2,
-        imgURL: "/images/manage.svg",
+        imgURL: "../assets/images/manage.svg",
         title: "Fullstack Developer",
         company: "Manage",
         tags: ["Fullstack", "Midweight", "HTML", "Python", "React"],
@@ -23,7 +23,7 @@ const Data = [
     },
     {
         id: 3,
-        imgURL: "/images/account.svg",
+        imgURL: "../assets/images/account.svg",
         title: "Junior Frontend Developer",
         company: "Account",
         tags: ["Frontend", "Junior", "Javascript", "Sass", "React"],
@@ -34,7 +34,7 @@ const Data = [
     },
     {
         id: 4,
-        imgURL: "/images/myhome.svg",
+        imgURL: "../assets/images/myhome.svg",
         title: "Junior Frontend Developer",
         company: "My Home",
         tags: ["Frontend", "Junior", "Javascript", "CSS"],
@@ -45,7 +45,7 @@ const Data = [
     },
     {
         id: 5,
-        imgURL: "/images/loop-studios.svg",
+        imgURL: "../assets/images/loop-studios.svg",
         title: "Software Engineer",
         company: "Loop Studios",
         tags: ["Fullstack", "Midweight", "Javascript", "Sass", "Ruby"],
@@ -56,7 +56,7 @@ const Data = [
     },
     {
         id: 6,
-        imgURL: "/images/faceit.svg",
+        imgURL: "../assets/images/faceit.svg",
         title: "Junior Backend Developer",
         company: "Loop Studios",
         tags: ["Backend", "Junior", "RoR", "Ruby"],
@@ -67,7 +67,7 @@ const Data = [
     },
     {
         id: 7,
-        imgURL: "/images/shortly.svg",
+        imgURL: "../assets/images/shortly.svg",
         title: "Junior Developer",
         company: "Shortly",
         tags: ["Frontend", "Junior", "HTML", "Sass", "Javascript"],
@@ -78,7 +78,7 @@ const Data = [
     },
     {
         id: 8,
-        imgURL: "/images/insure.svg",
+        imgURL: "../assets/images/insure.svg",
         title: "Junior Frontend Developer",
         company: "Insure",
         tags: ["Frontend", "Junior", "Vue", "Sass", "Javascript"],
@@ -89,7 +89,7 @@ const Data = [
     },
     {
         id: 9,
-        imgURL: "/images/eyecam-co.svg",
+        imgURL: "../assets/images/eyecam-co.svg",
         title: "Full Stack Developer",
         company: "Eyecam Co.",
         tags: ["Fullstack", "Midweight", "Django", "Python", "Javascript"],
@@ -100,7 +100,7 @@ const Data = [
     },
     {
         id: 10,
-        imgURL: "/images/the-air-filter-company.svg",
+        imgURL: "../assets/images/the-air-filter-company.svg",
         title: "Front-end Dev",
         company: "The Air Filter Company",
         tags: ["Frontend", "Junior", "React", "Sass", "Javascript"],
