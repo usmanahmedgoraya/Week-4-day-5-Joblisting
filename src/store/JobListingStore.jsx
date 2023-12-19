@@ -52,7 +52,7 @@ const JobListingStore = (set) => ({
 
             } else {
 
-                const filteredJobs = state.jobsList.filter(obj =>
+                const filteredJobs = Data.filter(obj =>
                     // Check if selectedTags is empty
                     updatedSelectedTags.length === 0 ||
                     obj.tags.some(tag => updatedSelectedTags.includes(tag))
