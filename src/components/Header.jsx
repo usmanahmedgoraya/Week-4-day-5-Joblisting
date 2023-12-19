@@ -21,7 +21,7 @@ const Header = () => {
             {
                 selectedTags.length === 0 ? "" :
                     <div className="w-full flex justify-center items-center relative bottom-8">
-                        <div className="bg-white dark:bg-gray-700 text-white flex justify-between relative px-8 items-center w-[50rem] mx-4 rounded-md shadow-xl h-auto md:h-16 py-6 md:py-3 ">
+                        <div className="bg-white dark:bg-gray-700 text-white flex justify-between relative px-8 items-center w-[50rem] mx-4 rounded-md shadow-xl h-auto py-6 md:py-3 ">
 
                             <div className="flex items-center flex-wrap relative gap-y-4 md:gap-y-3 space-x-2">
                                 {selectedTags.map((tag, index) => {
