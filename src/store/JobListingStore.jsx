@@ -16,27 +16,25 @@ const JobListingStore = (set) => ({
             // Updating selectedTags using functional update
             const updatedSelectedTags = [...new Set([...state.selectedTags, tag])];
 
-            // Take at most two tags for filtering
-            const tagsToFilter = updatedSelectedTags.slice(0, 2);
-            console.log('After:', tagsToFilter);
-
-            console.log('After:', tagsToFilter);
+            console.log('After:', updatedSelectedTags);
 
             // Filtering the array of objects based on tags
             const filteredJobs = state.jobsList.filter(obj =>
-                // Check if selectedTags is empty or both tags are present
-                (tagsToFilter.length === 0 || tagsToFilter.every(tag => obj.tags.includes(tag)))
+                // Check if selectedTags is empty
+                updatedSelectedTags.length === 0 ||
+                obj.tags.some(tag => updatedSelectedTags.includes(tag))
             );
 
             console.log('Filtered Jobs:', filteredJobs);
 
             // Updating jobsList using functional update
             return {
-                selectedTags: tagsToFilter,
+                selectedTags: updatedSelectedTags,
                 jobsList: filteredJobs,
             };
         });
     },
+
 
     // Remove Tag Functionality
     removeTag: (tag) => {
